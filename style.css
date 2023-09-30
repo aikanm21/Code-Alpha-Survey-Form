@@ -1,0 +1,186 @@
+body{
+    background-image: url("https://images.pexels.com/photos/62693/pexels-photo-62693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.header {
+    height: 850px;
+    width: 500px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.heading {
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: 5%;
+    border-bottom: 3px solid black;
+    padding-bottom: 3%;
+    margin-right: 5%;
+}
+
+.text {
+    margin-left: 25px;
+    margin-right: 45px;
+}
+
+.Name {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.firstname {
+    margin-left: 25px;
+    margin-top: 10px;
+    height: 25px;
+    width: 210px;
+
+}
+.firstname:hover{
+    border: 4px solid yellowgreen;
+}
+
+.lastname {
+    padding-right: 0%;
+    height: 25px;
+    margin-right: 25px;
+    width: 210px;
+    margin-top: 10px;
+}
+.lastname:hover{
+    border: 4px solid yellowgreen;
+}
+
+.email {
+    margin-left: 25px;
+    margin-top: 10px;
+    height: 25px;
+    width: 440px;
+}
+.email:hover{
+    border: 4px solid purple;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.question {
+    margin-bottom: 5px;
+    margin-left: 25px;
+    font-size: 14px;
+}
+.option:hover{
+    border: 6px solid darkgreen;
+}
+
+.text1 {
+    margin-right: 130px;
+}
+
+.option {
+    height: 28px;
+    margin-left: 25px;
+    padding-right: 20px;
+    width: 213px;
+}
+
+.date {
+    width: 212px;
+    height: 25px;
+    margin-left: 15px;
+}
+.date:hover{
+    border: 4px solid orangered;
+}
+.question1 {
+    margin-top: 20px;
+    margin-left: 25px;
+    display: block;
+    font-size: 13.5px;
+  }
+.points {
+    display: flex;
+    margin-bottom: 20px;
+}
+.firstoptions{
+    margin-left: 30px;
+}
+.nextoptions {
+    margin-left: 130px;
+}
+.toghether {
+    display: flex;
+    align-content: space-between;
+}
+.container1{
+    margin-left: 25px;
+}
+.container2{
+    margin-left: 20px;
+}
+.typeurl{
+    height: 25px;
+    width: 210px;
+    margin-top: 10px;
+}
+.typefile{
+    margin-top: 20px;
+}
+.refrences{
+          
+          margin-left: 25px;
+        }
+      .firstrefrences {
+        margin-top: 15px;
+        height: 25px;
+        width: 206px;
+      }
+     .secondrefrences{
+        height: 25px;
+        width: 200px;
+        margin-right: 20px;
+        margin-left: 20px;
+      }
+      .refrencestag{
+        display: flex;
+        justify-content: space-around;
+      }
+      .refemail{
+        margin-bottom: 15px;
+        margin-left: 25px;
+      }
+      .email body{
+        height: 25px;
+      }
+      .Reset{
+        border: 2px solid black;
+        margin-left: 25px;
+        color: black;
+        height: 25px;
+      }
+      .submit{
+        border: 1px solid black;
+        background-color: black;
+        color: white;
+        height: 25px;
+      }
+      .submit:hover{
+        border: 4px solid yellow;
+      }
+      .Reset:hover{
+        border: 4px solid yellow;
+      }
+      .header:hover{
+        background-color: skyblue;
+      }
+
+      

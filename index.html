@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <form action="index.html">
+            <h1 class="heading">Job Application Form </h1>
+            <p class="text">Thank You for your interest in working with us. Please check below for available job
+                oppurtunities that
+                meet your criteria and send your application by filling out the Job Application Form</p>
+            <label class="Name" for="name"> <b>Name</b></label>
+            <br>
+            <div class="container">
+                <input class="firstname" type="text" id="Name" placeholder="First">
+                <input class="lastname" type="text" id="name" placeholder="Last">
+            </div>
+            <br>
+            <label class="email" for="Email"><b>Email</b></label>
+            <br>
+            <input class="email" type="text" id="Email" placeholder="john@gmail.com">
+            <br><br>
+            <div class="flex">
+                <label class="question" for="position"> <b>What position are you applying for?</b></label>
+                <label class="text1" for="date"><b>Available date</b></label>
+                <br>
+            </div>
+            <select class="option" id="position" name="country">
+                <option value="Front end developer">Front End Developer</option>
+                <option value="back end developer">Back End Developer</option>
+                <option value="full stack developer">Full Stack Developer</option>
+                <option value="mern stack developer">Mern Stack Developer</option>
+            </select>
+            <input class="date" type="date" id="date">
+            <label class="question1" for="radio"><b>What is your current employement status?</b></label>
+            <br>
+            <div class="points">
+                <div class="firstoptions">
+            <input type="radio" id="radio1" name="radioption4" value="Employed">
+            <label class="option1" for="option1">Employed</label> <br> <br>
+            <input type="radio" id="radio2" name="radioption4" value="Unemployed">
+            <label class="option2" for="option2">Unemployed</label>
+        </div>
+        <div class="nextoptions">
+            <input type="radio" id="radio3" name="radioption4" value="Self-Employed">
+            <label class="option3" for="option3">Self-Employed</label> <br> <br>
+            <input type="radio" id="radio4" name="radioption4" value="Fresh Candidate">
+            <label class="option4" for="option4">Fresh Candidate</label>
+            </div>
+            </div>
+            <br> 
+            <div class="toghether"> 
+                <div class="container1">
+                <label class="linked" for="resume link"><b>Please provide your resume link</b></label>
+                <input class="typeurl" type="url" id="resume link" name="resume link" placeholder="https://www.example.com">
+                </div>
+                <div class="container2">
+                    <label class="upload" for="upload resume"><b> Please upload your resume</b></label>
+                    <input class="typefile" type="file" id="upload resume" name="upload resume">
+                </div>
+             </div>
+             <br>
+             <label class="refrences" name=" refrences " for="refrences"><b>Do you have refrences?(optional)</b></label>
+            <br>
+            <div class="refrences tag">
+                <input class="firstrefrences" type="text" id="refrences" id="refrences" placeholder="First">
+                <input class="secondrefrences" type="text" id="refrences" placeholder="Last">
+            </div>
+            <br>
+            <label class="refemail" for="refrencesemail"><b>Refrences Email</b></label>
+            <br>
+            <input class="email body" type="email" id="refrencesemail" placeholder="john.doe@gmail.com">
+            <br><br>
+            <input class="Reset" type="reset" value="Reset">
+            <input class="submit" type="submit" value="Apply">
+            </div>
+            </body>
+            </html>
+
