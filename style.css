@@ -5,7 +5,7 @@ body{
     background-position: center;
 }
 .header {
-    height: 850px;
+    height: 910px;
     width: 500px;
     border: 1px solid black;
     margin: auto;
@@ -154,13 +154,25 @@ body{
         display: flex;
         justify-content: space-around;
       }
-      .refemail{
+      .referemail{
         margin-bottom: 15px;
         margin-left: 25px;
       }
       .email body{
         height: 25px;
       }
+
+      .job1{
+        margin-bottom: 15px;
+        margin-left: 25px;
+      }
+      .jobs{
+        height: 25px;
+        margin-left: 25px;
+        width: 440px;
+      }
+
+
       .Reset{
         border: 2px solid black;
         margin-left: 25px;
